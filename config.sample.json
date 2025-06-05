@@ -1,0 +1,16 @@
+{
+  "spreadsheet_id": "",
+  "sheet_range": "Sheet1!A2:E100",
+  "credentials_file": "service-account.json",
+  "batch_size": 10,
+  "max_retries": 3,
+  "retry_delay": 5,
+  "image_generation": {
+    "model_size": "1.6B",
+    "width": 1024,
+    "height": 1024,
+    "guidance_scale": 4.5,
+    "num_inference_steps": 2,
+    "randomize_seed": true
+  }
+} 
